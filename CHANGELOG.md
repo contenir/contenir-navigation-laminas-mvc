@@ -4,7 +4,7 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project
 adheres to [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+## [0.1.0] - 2026-11-11
 
 The laminas-mvc adapter for [contenir/contenir-navigation](https://github.com/contenir/contenir-navigation), a port of
 [contenir/contenir-navigation-mezzio](https://github.com/contenir/contenir-navigation-mezzio).
@@ -21,3 +21,5 @@ The laminas-mvc adapter for [contenir/contenir-navigation](https://github.com/co
 - The menus kept in the cache `contenir_navigation.cache` names, a PSR-16 cache or a laminas-cache storage, by handle
   and live revision. List it in `pagecache.clear.caches` so the CMS's cache clear empties it.
 - The `menus()` view helper for laminas-view.
+
+[0.1.0]: https://github.com/contenir/contenir-navigation-laminas-mvc/releases/tag/v0.1.0
